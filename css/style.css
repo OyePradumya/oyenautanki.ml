@@ -13102,3 +13102,57 @@ textarea.form-control {
 .dropdown:hover .dropbtn {
     background-color: transparent;
 }
+
+.social_links {
+    position: absolute;
+    right: 100px;
+    z-index: 999;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+@media (max-width: 767px) {
+    .social_links {
+        display: none;
+    }
+}
+
+.social_links li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.social_links li a::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -1;
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.social_links li a:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.social_links li:last-child {
+    margin-bottom: 0;
+}
