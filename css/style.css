@@ -13191,7 +13191,7 @@ div#ppt caption {
 @media (max-width: 767px) {
     div#ppt iframe {
         display: block;
-        width: 50vh;
+        width: 50vw;
         height: 100vh;
         margin-left: auto;
         margin-right: auto;
