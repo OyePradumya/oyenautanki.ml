@@ -13177,8 +13177,8 @@ textarea.form-control {
 div#ppt iframe {
     display: block;
     position: relative;
-    width: 100vh;
-    height: 100vh;
+    width: 35vw;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -13188,12 +13188,12 @@ div#ppt caption {
     text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 813px) {
     div#ppt iframe {
         position: relative;
         display: block;
         width: 100vw;
-        height: 100vh;
+        height: 75vh;
         margin-left: auto;
         margin-right: auto;
     }
