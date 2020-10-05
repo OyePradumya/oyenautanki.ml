@@ -13198,3 +13198,22 @@ div#ppt caption {
         margin-right: auto;
     }
 }
+
+.yt-video {
+    align-content: center;
+}
+
+.yt-video iframe {
+    width: 50vw;
+    height: 50vh;
+}
+
+@media (max-width: 813px) {
+    .yt-video iframe {
+        width: 90vw;
+        height: 40vh;
+    }
+    .yt-video {
+        align-items: center;
+    }
+}
