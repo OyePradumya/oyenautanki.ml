@@ -76,4 +76,8 @@
     <loc>https://oyenautanki.ml/projects/python/index.html</loc>
     <priority>1.0</priority>
   </url>
+   <url>
+    <loc>https://oyenautanki.ml/blog/edx-scholarship.html</loc>
+    <priority>1.0</priority>
+  </url>
 </urlset>
