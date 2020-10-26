@@ -13154,3 +13154,32 @@ textarea.form-control {
 .mouse .social_links li:last-child {
     margin-bottom: 0;
 }
+
+.col-md-80 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.link-red {
+    background: #e81216;
+    background: -moz-linear-gradient(-45deg, #e81216 0%, #f45355 50%, #f6290c 51%, #ed0e11 71%, #fc1b21 100%);
+    background: -webkit-linear-gradient(-45deg, #e81216 0%, #f45355 50%, #f6290c 51%, #ed0e11 71%, #fc1b21 100%);
+    background: linear-gradient(135deg, #e81216 0%, #f45355 50%, #f6290c 51%, #ed0e11 71%, #fc1b21 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e81216', endColorstr='#fc1b21', GradientType=1);
+    background-size: 400% 400%;
+    border: medium none;
+    color: #fff !important;
+}
+
+.link {
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+    text-transform: capitalize;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
